@@ -7,13 +7,13 @@ public class LevelManager : MonoBehaviour
     public GameObject CurrentCheckpoint;
     public Transform player;
     
-    // Start is called before the first frame update
+    
     void Start()
     {
        CurrentCheckpoint = null; 
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
